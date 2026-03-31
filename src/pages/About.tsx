@@ -29,7 +29,7 @@ export default function About() {
           >
             <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/Gemini_Generated_Image_i85uisi85uisi85u.png"
+                src="https://i.imgur.com/0VwsdDA.png"
                 alt="박형진 대표 속기사"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

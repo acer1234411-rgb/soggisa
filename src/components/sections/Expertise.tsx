@@ -60,7 +60,7 @@ export default function Expertise() {
           >
             <div className="aspect-video lg:aspect-auto lg:h-full min-h-[400px] rounded-2xl overflow-hidden shadow-2xl relative group">
               <img 
-                src="/Gemini_Generated_Image_i85uisi85uisi85u.png" 
+                src="https://i.imgur.com/0VwsdDA.png" 
                 alt="박형진 속기사 프로필" 
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
