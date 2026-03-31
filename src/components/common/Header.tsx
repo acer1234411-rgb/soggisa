@@ -18,7 +18,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2 sm:gap-3 font-bold text-primary tracking-tight">
-              <img src="/logo.png" alt="박형진 속기·녹취 사무소 로고" className="h-8 sm:h-10 w-auto" />
+              <img src="https://i.imgur.com/DVL5Vh6.png" alt="박형진 속기·녹취 사무소 로고" className="h-8 sm:h-10 w-auto" />
               <div className="flex flex-row items-baseline gap-1.5 sm:gap-2 whitespace-nowrap">
                 <span className="text-lg sm:text-xl md:text-2xl">박형진</span> 
                 <span className="text-secondary text-lg sm:text-xl md:text-2xl font-bold">속기·녹취 사무소</span>

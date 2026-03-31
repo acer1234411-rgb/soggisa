@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-4 mb-6">
               <div className="bg-white p-1 rounded-lg shadow-inner">
-                <img src="/logo.png" alt="박형진 속기·녹취 사무소 로고" className="h-8 w-auto" />
+                <img src="https://i.imgur.com/DVL5Vh6.png" alt="박형진 속기·녹취 사무소 로고" className="h-8 w-auto" />
               </div>
               <h3 className="text-2xl font-bold tracking-tight">박형진 <span className="text-secondary">속기·녹취 사무소</span></h3>
             </div>
