@@ -8,7 +8,7 @@ export default function ContactLocation() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">오시는 길 및 연락처</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            서울 및 수도권 지역 대면 상담 환영합니다. 언제든 편하게 연락 주세요.
+            부산 및 경남지역 대면 상담 환영합니다. 언제든 편하게 연락 주세요.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export default function ContactLocation() {
           >
             <div className="bg-background p-8 rounded-2xl border border-gray-100 shadow-sm">
               <h3 className="text-2xl font-bold text-gray-800 mb-6 border-b border-gray-200 pb-4">사무소 정보</h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
@@ -31,8 +31,8 @@ export default function ContactLocation() {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800 mb-1">주소</h4>
-                    <p className="text-gray-600">서울특별시 서초구 서초대로 123, 법조빌딩 4층</p>
-                    <p className="text-sm text-gray-500 mt-1">교대역 1번 출구 도보 5분 거리</p>
+                    <p className="text-gray-600">경남 김해시 우암로 175(내동) 법조타운 1층 102-1호</p>
+                    <p className="text-sm text-gray-500 mt-1">김해문화의전당 하차 도보 4분 거리 </p>
                   </div>
                 </div>
 
@@ -42,8 +42,8 @@ export default function ContactLocation() {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800 mb-1">전화번호</h4>
-                    <p className="text-gray-600">02-123-4567</p>
-                    <p className="text-sm text-gray-500 mt-1">긴급 속기 문의: 010-1234-5678 (24시간)</p>
+                    <p className="text-gray-600">055-326-2035</p>
+                    <p className="text-sm text-gray-500 mt-1">긴급 속기 문의: 010-9244-2032 (24시간)</p>
                   </div>
                 </div>
 
@@ -53,7 +53,7 @@ export default function ContactLocation() {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800 mb-1">이메일</h4>
-                    <p className="text-gray-600">contact@parksteno.com</p>
+                    <p className="text-gray-600"> stenophj@naver.com</p>
                   </div>
                 </div>
 
@@ -83,11 +83,11 @@ export default function ContactLocation() {
             <div className="absolute inset-0 flex items-center justify-center flex-col text-gray-500">
               <MapPin className="w-16 h-16 mb-4 text-gray-400" />
               <p className="font-medium text-lg">지도 영역 (Google Maps API 연동 필요)</p>
-              <p className="text-sm mt-2">서울특별시 서초구 서초대로 123</p>
+              <p className="text-sm mt-2">경남 김해시 우암로 175(내동) 법조타운 1층 102-1호</p>
             </div>
-            <img 
-              src="https://loremflickr.com/800/600/map,city/all" 
-              alt="지도 배경" 
+            <img
+              src="https://loremflickr.com/800/600/map,city/all"
+              alt="지도 배경"
               className="w-full h-full object-cover opacity-30 mix-blend-multiply"
               referrerPolicy="no-referrer"
             />

@@ -25,24 +25,24 @@ export default function CTA() {
             지금 바로 박형진 속기사에게 연락하여 빠르고 정확한 견적을 받아보세요.
             24시간 이내 납품 가능한 긴급 속기 서비스도 준비되어 있습니다.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="group bg-secondary text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl flex items-center gap-2 transform hover:-translate-y-1"
             >
               지금 바로 전문 속기 상담 신청하기
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
-            
-            <a 
-              href="tel:02-123-4567" 
+
+            <a
+              href="tel:02-123-4567"
               className="flex items-center gap-3 text-white hover:text-secondary transition-colors text-lg font-medium"
             >
               <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center border border-white/20">
                 <PhoneCall className="w-5 h-5" />
               </div>
-              <span>02-123-4567</span>
+              <span>055-326-2035</span>
             </a>
           </div>
         </motion.div>

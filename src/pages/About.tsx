@@ -28,9 +28,9 @@ export default function About() {
             className="relative"
           >
             <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src="https://loremflickr.com/800/1000/portrait,professional/all" 
-                alt="박형진 대표 속기사" 
+              <img
+                src="/Gemini_Generated_Image_i85uisi85uisi85u.png"
+                alt="박형진 대표 속기사"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -49,23 +49,23 @@ export default function About() {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">대표 속기사 <span className="text-primary">박형진</span></h2>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
               <p>
-                안녕하십니까, 박형진 개인 속기사 사무소 대표 박형진입니다.
+                안녕하십니까, 박형진 속기·녹취 사무소 대표 박형진입니다.
               </p>
               <p>
-                지난 10여 년간 대형 법무법인과 수많은 변호사님들의 파트너로서, 
-                민사, 형사, 가사, 기업 자문 등 다양한 법률 분쟁의 최전선에서 
+                지난 10여 년간 대형 법무법인과 수많은 변호사님들의 파트너로서,
+                민사, 형사, 가사, 기업 자문 등 다양한 법률 분쟁의 최전선에서
                 음성 자료를 텍스트화하는 작업을 수행해 왔습니다.
               </p>
               <p>
-                법률 속기는 단순한 타이핑이 아닙니다. 
-                재판의 승패를 가를 수 있는 결정적 증거가 되기도 하며, 
-                복잡한 사건의 맥락을 파악하는 핵심 자료가 되기도 합니다. 
-                그렇기에 고도의 집중력과 법률 용어에 대한 깊은 이해, 
+                법률 속기는 단순한 타이핑이 아닙니다.
+                재판의 승패를 가를 수 있는 결정적 증거가 되기도 하며,
+                복잡한 사건의 맥락을 파악하는 핵심 자료가 되기도 합니다.
+                그렇기에 고도의 집중력과 법률 용어에 대한 깊은 이해,
                 그리고 무엇보다 '정확성'이 요구됩니다.
               </p>
               <p>
-                저희 사무소는 대형 업체의 공장식 작업 방식을 지양합니다. 
-                제가 직접 모든 의뢰 건을 1:1로 전담하여, 
+                저희 사무소는 대형 업체의 공장식 작업 방식을 지양합니다.
+                제가 직접 모든 의뢰 건을 1:1로 전담하여,
                 의뢰인의 상황과 사건의 특수성을 완벽히 이해한 맞춤형 결과물을 제공합니다.
               </p>
             </div>
@@ -93,7 +93,7 @@ export default function About() {
         <div className="bg-primary text-white rounded-3xl p-12 md:p-16 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-secondary rounded-full mix-blend-multiply filter blur-3xl opacity-50 translate-x-1/2 -translate-y-1/2"></div>
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 -translate-x-1/2 translate-y-1/2"></div>
-          
+
           <div className="relative z-10">
             <h2 className="text-3xl font-bold mb-12 text-center">운영 철학 및 비전</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -103,7 +103,7 @@ export default function About() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">정확성 (Accuracy)</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  단어 하나, 조사 하나의 차이가 법적 해석을 바꿀 수 있음을 알기에, 
+                  단어 하나, 조사 하나의 차이가 법적 해석을 바꿀 수 있음을 알기에,
                   99.9%의 정확도를 목표로 다중 교차 검수를 진행합니다.
                 </p>
               </div>
@@ -113,7 +113,7 @@ export default function About() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">기밀유지 (Confidentiality)</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  의뢰인의 정보 보호를 최우선 가치로 삼습니다. 
+                  의뢰인의 정보 보호를 최우선 가치로 삼습니다.
                   엄격한 보안 시스템과 서약을 통해 어떤 정보도 외부로 유출되지 않습니다.
                 </p>
               </div>
@@ -123,7 +123,7 @@ export default function About() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">맞춤형 (Customized)</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  사건의 성격, 긴급도, 요구되는 양식 등 
+                  사건의 성격, 긴급도, 요구되는 양식 등
                   의뢰인의 개별적인 니즈에 완벽하게 부합하는 1:1 맞춤 서비스를 제공합니다.
                 </p>
               </div>
