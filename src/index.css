@@ -11,9 +11,6 @@
 
 html {
   overscroll-behavior: none;
-  height: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
   touch-action: pan-y;
 }
 
@@ -23,12 +20,9 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow-x: clip;
   overscroll-behavior: none;
-  height: 100%;
-  max-width: 100%;
   touch-action: pan-y;
-  position: relative;
 }
 
 /* Glassmorphism utility */
