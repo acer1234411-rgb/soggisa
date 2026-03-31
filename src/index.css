@@ -12,6 +12,9 @@
 html {
   overscroll-behavior: none;
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  touch-action: pan-y;
 }
 
 body {
@@ -23,6 +26,9 @@ body {
   overflow-x: hidden;
   overscroll-behavior: none;
   height: 100%;
+  max-width: 100%;
+  touch-action: pan-y;
+  position: relative;
 }
 
 /* Glassmorphism utility */
