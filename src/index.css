@@ -9,6 +9,11 @@
   --font-heading: "Pretendard", ui-sans-serif, system-ui, sans-serif;
 }
 
+html {
+  overscroll-behavior: none;
+  height: 100%;
+}
+
 body {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -16,7 +21,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  overscroll-behavior-y: none;
+  overscroll-behavior: none;
+  height: 100%;
 }
 
 /* Glassmorphism utility */

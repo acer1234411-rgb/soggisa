@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
-    <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
+    <section className="relative flex items-center justify-center overflow-hidden" style={{ height: '90dvh', minHeight: '500px' }}>
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
