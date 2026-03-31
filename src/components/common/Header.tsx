@@ -1,10 +1,21 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Menu, X, Info, FileText, MessageSquare, Phone } from 'lucide-react';
-import { useState } from 'react';
+import { useState, type MouseEvent } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogoClick = (e: MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    if (window.location.pathname === '/') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      navigate('/');
+      setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 100);
+    }
+  };
 
   const menuItems = [
     { title: '사무소 소개', path: '/about', icon: Info },
@@ -17,13 +28,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="flex items-center gap-2 sm:gap-3 font-bold text-primary tracking-tight">
+            <a href="/" onClick={handleLogoClick} className="flex items-center gap-2 sm:gap-3 font-bold text-primary tracking-tight cursor-pointer">
               <img src="https://i.imgur.com/DVL5Vh6.png" alt="박형진 속기·녹취 사무소 로고" className="h-8 sm:h-10 w-auto" />
               <div className="flex flex-row items-baseline gap-1.5 sm:gap-2 whitespace-nowrap">
                 <span className="text-lg sm:text-xl md:text-2xl">박형진</span> 
                 <span className="text-secondary text-lg sm:text-xl md:text-2xl font-bold">속기·녹취 사무소</span>
               </div>
-            </Link>
+            </a>
           </div>
 
           {/* Desktop Menu */}
