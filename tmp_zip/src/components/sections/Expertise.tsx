@@ -21,9 +21,9 @@ export default function Expertise() {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-background overflow-hidden">
+    <section className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -56,31 +56,26 @@ export default function Expertise() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative h-full"
+            className="relative"
           >
-            <div className="aspect-video lg:aspect-auto lg:h-full min-h-[400px] rounded-2xl overflow-hidden shadow-2xl relative group">
+            <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative">
               <img 
-                src="/Gemini_Generated_Image_i85uisi85uisi85u.png" 
+                src="https://loremflickr.com/800/1000/portrait,professional/all" 
                 alt="박형진 속기사 프로필" 
-                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-80 pointer-events-none"></div>
-              <div className="absolute bottom-0 left-0 p-8 text-white z-10 w-full">
-                <div className="flex flex-col">
-                  <h3 className="text-2xl font-bold mb-1 [text-shadow:_0_2px_4px_rgba(0,0,0,0.8)]">박형진 대표 속기사</h3>
-                  <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-gray-100 font-bold opacity-100 [text-shadow:_0_1px_2px_rgba(0,0,0,0.8)]">
-                    <span>국가공인 한글속기 1급</span>
-                    <span className="hidden sm:inline">•</span>
-                    <span>前 대형 법무법인 전담 속기사</span>
-                  </div>
-                </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+              <div className="absolute bottom-0 left-0 p-8 text-white">
+                <h3 className="text-2xl font-bold mb-2">박형진 대표 속기사</h3>
+                <p className="text-gray-200">국가공인 한글속기 1급</p>
+                <p className="text-gray-200">前 대형 법무법인 전담 속기사</p>
               </div>
             </div>
             
             {/* Decorative element */}
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary rounded-full mix-blend-multiply filter blur-2xl opacity-40 z-[-1]"></div>
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary rounded-full mix-blend-multiply filter blur-2xl opacity-15 z-[-1]"></div>
+            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary rounded-full mix-blend-multiply filter blur-2xl opacity-50 z-[-1]"></div>
+            <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary rounded-full mix-blend-multiply filter blur-2xl opacity-20 z-[-1]"></div>
           </motion.div>
         </div>
       </div>
